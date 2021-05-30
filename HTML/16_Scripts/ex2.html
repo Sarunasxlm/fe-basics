@@ -2,19 +2,26 @@
 
  -->
 
- <!DOCTYPE html>
- <html>
- <head>
-    <script>
-        document.getElementById("demo").
-        .
-         = "40px";
-        </script>
- 
- </head>
- <body>
- 
-     <p id="demo">Hi.</p>
- 
- </body>
- </html>
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+</head>
+
+<body>
+
+    <p id="demo">Hi.</p>
+
+</body>
+<script>
+    setTimeout(() => document.getElementById("demo").style.fontSize = "40px", 2000)
+    var tag = document.createElement("p");
+    var text = document.createTextNode("Tutorix is the best e-learning platform");
+    tag.appendChild(text);
+    var element = document.getElementById("demo");
+    element.parentElement.append(tag);
+</script>
+
+</html>

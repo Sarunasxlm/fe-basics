@@ -9,12 +9,30 @@
 <html>
 
 <head>
+    <style>
+        li {
+            list-style-type: circle;
+        }
+
+        li li {
+            list-style-type: disc;
+        }
+    </style>
 </head>
 
 <body>
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
+    <ol>
+        <li>Tea</li>
+        <li>Coffee</li>
+        <li>Milk 
+            <ol>
+                <li>Tea</li>
+                <li>Coffee</li>
+                <li>Milk</li>
+            </ol>
+        </li>
+
+    </ol>
 </body>
 
 </html>
