@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: OpenSans;
+}
+
+.header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px 10px 20px 10px;
+    border-bottom: 5px solid;
+}
+
+.header>h1 {
+    margin: 0;
+}
+
+.header>h4 {
+    margin: 0;
+    padding-top: 10px;
+}
+
+.image-container {
+    padding: 80px 50px;
+}
+
+.image-container>img {
+    width: 100%;
+}

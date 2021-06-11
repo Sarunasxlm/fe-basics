@@ -11,3 +11,8 @@ make each div take up only 50% view port and then on hover increase
 div to 100% and its elements sizes accordingly view port and add transition
 
 SEND ZIP
+
+
+       heading
+Pic | 
+        paragraph
