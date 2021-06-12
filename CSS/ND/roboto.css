@@ -8,3 +8,9 @@
     src: url('../../Fonts/Roboto/Roboto-Bold.ttf');
     font-weight: bold;
 }
+
+@font-face {
+    font-family: Roboto;
+    src: url('../../Fonts/Roboto/Roboto-Medium.ttf');
+    font-weight: 500;
+}
