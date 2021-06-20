@@ -23,6 +23,8 @@
 
 .material-input > input:focus + label,
 .material-input > label {
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
     color: #4476bd;
     font-size: 12px;
     pointer-events: none;
