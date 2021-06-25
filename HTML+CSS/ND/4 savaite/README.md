@@ -5,4 +5,33 @@
 If somebody wants they can replicate navigation bar behavior(not necessary)
 https://www.free-css.com/assets/files/free-css-templates/preview/page235/gusto/
 
+1 container
+https://www.free-css.com/assets/files/free-css-templates/preview/page235/gusto/assets/img/intro-bg.jpg
+
+
+2 - container
+
+https://www.free-css.com/assets/files/free-css-templates/preview/page235/gusto/assets/img/specials/1.jpg
+https://www.free-css.com/assets/files/free-css-templates/preview/page235/gusto/assets/img/specials/2.jpg
+https://www.free-css.com/assets/files/free-css-templates/preview/page235/gusto/assets/img/specials/3.jpg
+
+3 -container 
+
+https://www.free-css.com/assets/files/free-css-templates/preview/page235/gusto/assets/img/gallery-bg.jpg
+
+4 - container
+
+https://www.free-css.com/assets/files/free-css-templates/preview/page235/gusto/assets/img/gallery/01.jpg
+
+https://www.free-css.com/assets/files/free-css-templates/preview/page235/gusto/assets/img/gallery/02.jpg
+
+https://www.free-css.com/assets/files/free-css-templates/preview/page235/gusto/assets/img/gallery/03.jpg
+
+https://www.free-css.com/assets/files/free-css-templates/preview/page235/gusto/assets/img/gallery/04.jpg
+
+
+5 - container
+
+https://www.free-css.com/assets/files/free-css-templates/preview/page235/gusto/assets/img/chef.jpg
+
 3. Finish HTML+CSS/Responsive contact form

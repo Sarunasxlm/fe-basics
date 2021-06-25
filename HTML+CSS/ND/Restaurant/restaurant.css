@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', serif;
+}
+
+#navbar {
+    width: 100%;
+    min-height: 50px;
+    background-color: #262626;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#navbar a {
+    background-color: transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #eee;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 5px 20px;
+    border: 2px solid transparent;;
+    letter-spacing: 0.5px;
+    margin: 0px 20px;
+}
+
+#navbar a:hover {
+    color: #d43031;
+}
