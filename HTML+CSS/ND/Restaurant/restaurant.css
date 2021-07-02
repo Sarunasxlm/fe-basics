@@ -157,3 +157,128 @@ header p {
     margin: 15px 0 30px;
     font-size: 15px;
 }
+
+
+#menu .container {
+    padding: 100px;
+}
+
+#menu .container .menu-container {
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+#menu .container .menu-container .menu-details {
+    width: 50%;
+    padding: 0 15px;
+}
+
+#menu .container .menu-container .menu-details h3 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #444;
+    margin: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#menu .container .menu-container .menu-details .menu-item {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    margin: 45px 0;
+}
+
+#menu .container .menu-container .menu-details .menu-item:hover {
+    height: max-content;
+}
+
+#menu .container .menu-container .menu-details .menu-item:hover .desc {
+    display: block;
+}
+
+#menu .container .menu-container .menu-details .menu-item .title-and-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#menu .container .menu-container .menu-details .menu-item .title-and-price .title {
+    font-weight: 400;
+    font-size: 20px;
+    color: #444;
+}
+
+#menu .container .menu-container .menu-details .menu-item .title-and-price .price {
+    font-weight: 400;
+    color: #555;
+    font-size: 18px;
+}
+
+#menu .container .menu-container .menu-details .menu-item .desc {
+    font-size: 15px;
+    width: 85%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gallery img {
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    background: #262626;
+    padding: 20px 60px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footer .copyright-text {
+    font-size: 14px;
+}
+
+#footer a {
+    color: #999;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: #eee;
+}
+
+#footer .media-icons a {
+    margin: 0 15px;
+}
