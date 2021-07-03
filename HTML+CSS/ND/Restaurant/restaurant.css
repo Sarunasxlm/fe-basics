@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -90,6 +91,7 @@ header p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 70px 0;
 }
 
 .title-line {
@@ -109,6 +111,7 @@ header p {
 #specials .container .row .special-item {
     width: 300px;
     text-align: center;
+    padding: 10px;
 }
 
 #specials .container .row .special-item h3 {
@@ -158,13 +161,12 @@ header p {
     font-size: 15px;
 }
 
-
 #menu .container {
     padding: 100px;
 }
 
 #menu .container .menu-container {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     margin-top: 70px;
 }
@@ -236,32 +238,145 @@ header p {
     width: 25%;
 }
 
+#chef .container {
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+}
 
+#chef .container .chef-desc, #chef .container img {
+    width: 50%;
+    padding: 0 15px;
+}
 
+#chef .container img {
+    min-width: 463px;
+    min-height: 373px;
+}
 
+#chef .container .chef-desc h2 {
+    text-align: left;
+}
 
+#chef .container .chef-desc .title-line {
+    margin: 20px 0 70px 0;
+}
 
+#chef .container .chef-desc p {
+    margin-bottom: 10px;
+    width: 85%;
+}
 
+#contact {
+    padding: 100px;
+    background: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+#contact .info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
+#contact .title-line {
+    width: 40px;
+}
 
+#contact h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #aaa;
+    text-align: center;
+}
 
+#contact .info p {
+    text-align: center;
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 10px;
+}
 
+#contact form {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
 
+#contact form .input-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
 
+#contact form .input-row input {
+    width: 100%;
+}
 
+#contact form .input-row input:first-child {
+    margin-right: 15px;
+}
 
+#contact form .input-row input:last-child {
+    margin-left: 15px;
+}
 
+#contact form textarea {
+    margin-bottom: 30px;
+    resize: vertical;
+}
 
+#contact form .submit-button {
+    text-align: center;
+}
 
+#contact form input:not([type='submit']), #contact form textarea {
+    font-family: inherit;
+    padding: 6px 12px;
+    font-size: 16px;
+    color: #ccc;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    box-shadow: none;
+    transition: none;
+}
 
+#contact form input:not([type='submit'])::placeholder, #contact form textarea::placeholder {
+    color: #999;
+}
 
+#contact form input[type='submit'] {
+    text-transform: uppercase;
+    color: #777;
+    background-color: transparent;
+    border: 2px solid #777;
+    padding: 14px 20px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 0;
+    transition: all 0.3s;
+    cursor: pointer;
+}
 
+#contact form input[type='submit']:hover {
+    color: white;
+    background-color: red;
+    border-color: red;
+}
 
 #footer {
     background: #262626;
     padding: 20px 60px;
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -275,10 +390,80 @@ header p {
     text-decoration: none;
 }
 
-#footer a:hover {
+#footer a:hover, #footer .media-icons i:hover {
     color: #eee;
 }
 
 #footer .media-icons a {
     margin: 0 15px;
+}
+
+#footer .media-icons i {
+    font-size: 24px;
+    padding: 4px;
+    color: #888;
+    transition: all 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+    #specials .container .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    #about .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    #about .container img {
+        width: 100%;
+    }
+    #about .container .about-text {
+        padding: 60px 0;
+    }
+    #menu .container .menu-container .menu-details {
+        width: 100%;
+    }
+    #gallery img {
+        width: 50%;
+    }
+    #chef .container {
+        flex-direction: column;
+    }
+    #chef .container .chef-desc {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    #chef .container img {
+        width: 100%;
+    }
+    #contact {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    #contact .info {
+        flex-direction: column;
+    }
+    #contact .info .col {
+        margin-bottom: 40px;
+    }
+    #contact form {
+        width: 100%;
+    }
+    #contact form .input-row {
+        flex-direction: column;
+    }
+    #contact form .input-row input:first-child, #contact form .input-row input:last-child {
+        margin: 0;
+    }
+    #contact form .input-row input:first-child {
+        margin-bottom: 15px;
+    }
+    #footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer .media-icons {
+        margin-top: 20px;
+    }
 }

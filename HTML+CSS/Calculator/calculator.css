@@ -17,12 +17,23 @@ body {
     height: 560px;
     background-color: rgb(228, 233, 241);
     display: grid;
-    grid-template: repeat(7, 1fr) / repeat(4, 1fr);
+    grid-template: 30px repeat(7, 1fr) / repeat(4, 1fr);
     grid-gap: 3px;
     border: 2px solid black;
 }
 
-.result-row {
+#actions {
+    grid-column: 1 / 5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 10px;
+    color: #666;
+}
+
+#result {
     grid-column: 1 / 5;
     display: flex;
     justify-content: flex-end;
